@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "ryuhzk.moonlight",
+  "name": "Moonlight Remote",
+  "version": "0.1.0",
+  "author": "ryuhzk",
+  "license": "MIT",
+  "description": "Stream a computer you have paired with Moonlight straight from the Omarchy bar, without opening Moonlight first.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Moonlight Remote",
+    "description": "Lists the hosts Moonlight is paired with. Click one to stream it; close the stream window to disconnect.",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {},
+    "schema": []
+  }
+}
