@@ -34,8 +34,8 @@ between hosts, Enter connects, Escape closes.
 ## Requirements
 
 - Omarchy with the Quickshell-based shell (Quattro or newer).
-- `moonlight-qt` at `/usr/bin/moonlight`. Omarchy installs it by default; if you
-  removed it, `omarchy pkg add moonlight-qt` puts it back.
+- `moonlight-qt` at `/usr/bin/moonlight`. Omarchy ships it by default; if you
+  removed it, reinstall the `moonlight-qt` package.
 - At least one host paired in Moonlight. Open Moonlight once, add the host and
   enter the PIN it shows on the host (Sunshine, Apollo or GeForce Experience).
   After that you do not need to open Moonlight again.
@@ -92,7 +92,7 @@ window.
 | What you see | What it means |
 |---|---|
 | "No paired hosts" | Moonlight has no paired host yet. Pair one in Moonlight. |
-| "Moonlight is not installed" | `/usr/bin/moonlight` is missing. `omarchy pkg add moonlight-qt`. |
+| "Moonlight is not installed" | `/usr/bin/moonlight` is missing. Reinstall the `moonlight-qt` package. |
 | "No app to stream" | The host lists no visible app. Unhide one in Moonlight, or add one on the host. |
 | Clicking a host does nothing visible | Moonlight is connecting; it shows its own error window if the host is unreachable. |
 
